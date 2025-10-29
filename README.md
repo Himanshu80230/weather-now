@@ -1,16 +1,83 @@
-# React + Vite
+🌤️ Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully designed weather application that displays live weather updates for any city using the Open-Meteo API.
+Built with React + Vite and styled using plain CSS for a minimal yet elegant user experience.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 https://98gfff-5173.csb.app/
 
-## React Compiler
+🧠 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌍 Search any city and get real-time temperature & conditions
 
-## Expanding the ESLint configuration
+⚡ Fast response and smooth transitions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💫 Built entirely with plain CSS (no frameworks)
+
+☁️ Powered by Open-Meteo API
+
+📱 Fully responsive layout
+
+🎨 About the UI
+
+The interface is designed to feel simple, elegant, and modern:
+
+Soft animated gradient background
+
+Rounded, clean input + button styles
+
+Smooth hover effects and transitions
+
+Focused center layout and readable typography
+
+🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Plain CSS
+
+API: Open-Meteo API
+
+Hosting: CodeSandbox
+
+Version Control: GitHub
+
+📦 Installation
+git clone https://github.com/Himanshu80230/weather-now.git
+cd weather-now
+npm install
+npm run dev
+
+
+Then open http://localhost:5173
+ in your browser.
+
+💡 Author
+
+👨‍💻 Himanshu
+📧 Candidate ID – Naukri1025
+🔗 GitHub Profile
+
+🏁 Submission Info
+
+Company: Aganitha Cognitive Solutions
+
+Position: Full Stack Developer (Take-Home Challenge)
+
+Level 1: ✅ Functional Application
+
+Level 2: ✅ Hosted on CodeSandbox
+
+Level 3: ✅ Code Shared + Documented
+
+🗒️ Notes
+src/
+ ├── components/   # Reusable UI elements
+ ├── utils/        # Helper & API functions
+ ├── App.jsx       # Main React component
+
+
+Code is clearly commented for easy understanding.
+
+✨ Thank you for reviewing my project!
