@@ -9,15 +9,15 @@ Built with React + Vite and styled using plain CSS for a minimal yet elegant use
 
 🧠 Features
 
-🌍 Search any city and get real-time temperature & conditions
+🌍 Search for any city and get real-time temperature and weather conditions
 
-⚡ Fast response and smooth transitions
+⚡ Fast response and smooth UI transitions
 
 💫 Built entirely with plain CSS (no frameworks)
 
-☁️ Powered by Open-Meteo API
+☁️ Powered by the Open-Meteo API
 
-📱 Fully responsive layout
+📱 Fully responsive design
 
 🎨 About the UI
 
@@ -25,11 +25,13 @@ The interface is designed to feel simple, elegant, and modern:
 
 Soft animated gradient background
 
-Rounded, clean input + button styles
+Rounded, clean input and button styles
 
 Smooth hover effects and transitions
 
-Focused center layout and readable typography
+Center-aligned layout with readable typography
+
+This blend of minimalism and beauty makes Weather Now both functional and delightful.
 
 🛠️ Tech Stack
 
@@ -44,6 +46,9 @@ Hosting: CodeSandbox
 Version Control: GitHub
 
 📦 Installation
+
+To run locally:
+
 git clone https://github.com/Himanshu80230/weather-now.git
 cd weather-now
 npm install
@@ -78,6 +83,14 @@ src/
  ├── App.jsx       # Main React component
 
 
-Code is clearly commented for easy understanding.
+Code is clean and commented for easy understanding.
 
-✨ Thank you for reviewing my project!
+🕒 Recent Updates
+
+✏️ Added inline comments for clarity (App.jsx, api.js)
+
+🧾 Improved README formatting for professional presentation
+
+🚀 Deployed app live on CodeSandbox
+
+Made by Himanshu
