@@ -1,0 +1,198 @@
+/* -------- RESET -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* -------- MAIN CONTAINER -------- */
+.container {
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  transition: background 1s ease, filter 1s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Background themes */
+.default-bg {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}
+.clear-bg {
+  background: linear-gradient(135deg, #56ccf2, #2f80ed);
+}
+.cloudy-bg {
+  background: linear-gradient(135deg, #bdc3c7, #2c3e50);
+}
+.rainy-bg {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+.snowy-bg {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #333;
+}
+.storm-bg {
+  background: linear-gradient(135deg, #000000, #434343);
+}
+
+.day-mode {
+  filter: brightness(1);
+}
+.night-mode {
+  filter: brightness(0.8) contrast(1.1);
+}
+
+/* -------- TITLES -------- */
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* -------- SEARCH BAR -------- */
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  width: 60%;
+  max-width: 300px;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.3s;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.search-btn {
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.search-btn:hover {
+  transform: scale(1.05);
+  background-color: #fff;
+}
+
+/* -------- SPINNER -------- */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------- ERROR -------- */
+.error {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin: 1rem auto;
+  max-width: 400px;
+}
+
+/* -------- WEATHER CARD -------- */
+.weather-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  margin-top: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+  opacity: 0;
+  transform: translateY(15px);
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Temperature styling */
+.weather-temp h1 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.weather-temp p {
+  margin-top: 0.3rem;
+  opacity: 0.9;
+}
+
+.weather-info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.25rem;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-extra {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* -------- FOOTER -------- */
+.footer {
+  margin-top: auto;
+  padding-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.footer span {
+  font-weight: bold;
+}
+
