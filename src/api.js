@@ -1,3 +1,7 @@
+// Function to fetch weather data from Open-Meteo API
+// Accepts city name → returns current weather info
+
+
 import axios from "axios";
 
 // Convert a city name to coordinates

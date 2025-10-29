@@ -1,3 +1,6 @@
+// Main component rendering the weather UI
+// Handles user input and displays API data
+
 import { useState } from "react";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
